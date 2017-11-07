@@ -1,0 +1,27 @@
+{
+  "name": "mongoarticlescrapper",
+  "version": "1.0.0",
+  "description": "An Application that will Scrape Articles from the NY Times.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShinyHime/MongoDBArticleScrapper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShinyHime/MongoDBArticleScrapper/issues"
+  },
+  "homepage": "https://github.com/ShinyHime/MongoDBArticleScrapper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.13.0",
+    "request": "^2.83.0"
+  }
+}
