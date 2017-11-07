@@ -1,0 +1,43 @@
+
+
+/*******************************************************************
+                            JUMBOTRON  
+********************************************************************/
+
+.home.jumbotron {
+    position: relative;
+    background: url('../../assets/images/newspaper.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    max-height: 100%;
+    margin-bottom: 0px;
+}
+
+.saved.jumbotron {
+    position: relative;
+    background: url('../../assets/images/bookmark.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    max-height: 100%;
+    margin-bottom: 0px;
+}
+
+.jumbotron .overlay {
+  background: linear-gradient(#333, black);
+  position: absolute;
+  opacity: 0.7;
+  z-index: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+
+.movedown {
+    margin-top: 209px;
+}
+
+.jumbo-text {
+    color: white;
+}
