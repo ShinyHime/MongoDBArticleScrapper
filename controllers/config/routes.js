@@ -1,4 +1,4 @@
-var Article = require('../../models/article');
+var Article = require('../../models/Article.js');
 var cheerio = require("cheerio");
 var request = require("request");
 
