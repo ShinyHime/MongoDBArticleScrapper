@@ -14,7 +14,7 @@
         <a class="nav-link" href="/saved">Saved Articles</a>
       </li>
     </ul>
-    <button class="btn btn-outline-success my-2 my-sm-0">Scrape New Articles</button>
+    <button id="scrape-button" class="btn btn-outline-success my-2 my-sm-0">Scrape New Articles</button>
   </div>
 </nav>
 
@@ -28,3 +28,21 @@
     </div>
   </div>
 </div>
+
+{{!-- 
+Scraped Articles --}}
+<div class="container">
+    <div class="row">
+      <div class="col-xs-12 articles">
+
+        {{#each doc}}
+
+        <p><a href="{{this.link}}"><h2>{{this.headline}}</h2></a></p>
+        <p>
+          <h4>{{this.summary}}</h4></p>
+        <hr> {{/each}}
+
+      </div>
+    </div>
+</div>
+

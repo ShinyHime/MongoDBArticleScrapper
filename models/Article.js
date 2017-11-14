@@ -15,6 +15,10 @@ var articleSchema = new Schema({
         type: String,
         required: true
     },
+    link: {
+        type: String,
+        required: true
+    },
     // If it is Saved
     saved: {
         type: Boolean,
