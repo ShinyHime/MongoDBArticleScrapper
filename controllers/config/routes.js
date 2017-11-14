@@ -1,4 +1,3 @@
-var Note = require('../../models/note');
 var Article = require('../../models/article');
 var cheerio = require("cheerio");
 var request = require("request");
